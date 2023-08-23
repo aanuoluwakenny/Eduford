@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="prac.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prac.html"><img src="./logo.svg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+      <!-- Javascript for toggle menu  -->
+    <script>
+        
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navlinks.style.right = "0"
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px"
+        }
+        
+
+    </script>
+
+  <!-- blog page content -->
+
+  <section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="./certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quae neque laborum vero, rerum, nam veniam beatae ipsum eum odio unde distinctio qui modi, quaerat mollitia rem temporibus architecto earum soluta corrupti quo ipsa. Odit aperiam natus tempore, similique possimus nostrum corporis!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia fuga provident quia beatae eius placeat facere maxime dolor magnam culpa explicabo ipsam ex voluptatibus blanditiis, nemo consequuntur ut nisi nostrum, modi in! Perferendis ab rerum nobis ipsa enim, quas a dolores minus possimus ut veniam veritatis deleniti consequuntur sit? Omnis consequuntur impedit excepturi molestiae distinctio. Nesciunt, expedita numquam! Deleniti, pariatur tenetur autem voluptas minima unde quam earum sed cumque saepe ducimus voluptatibus dolorem blanditiis ipsam hic fugiat tempora non labore. Accusamus reiciendis nisi, consectetur consequatur quas laboriosam architecto sequi vitae, possimus at tempore, iusto exercitationem. Vel ut animi rerum commodi nemo, maiores quia hic sed nihil numquam necessitatibus modi?</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum reiciendis in, nesciunt rerum ea sit voluptate aliquam ab accusamus eum, minus nam quibusdam perferendis vel enim doloremque cumque veritatis laboriosam! Consequuntur repellendus sunt excepturi, sapiente ipsum veritatis quos cum? Maiores laudantium iste necessitatibus quos iusto dolor tempore veniam excepturi at reprehenderit! Harum, id fugit. Dolor modi quis laudantium amet eaque nemo ipsam recusandae eveniet eius dolorem sed omnis cumque natus, quia provident officia quasi sint aliquam! Soluta, perferendis.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis id maiores culpa laborum modi, qui, corrupti sapiente consequuntur at ipsum quasi ratione ipsa! Recusandae illum nam sequi ad pariatur voluptatibus vitae adipisci, praesentium culpa natus impedit modi dolor fuga rem odit hic beatae delectus veniam! Asperiores porro ratione iste!</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam itaque a facilis rerum reiciendis <br>quaerat corrupti quia eum, minima obcaecati cum quidem quis?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+</body>
+</html>

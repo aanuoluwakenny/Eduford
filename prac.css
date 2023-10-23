@@ -239,7 +239,8 @@ h3{
 .testimonals{
     width: 80%;
     margin: auto;
-    padding-top: 100px;text-align: center;
+    padding-top: 100px;
+    text-align: center;
 }
 .testimonal-col{
     flex-basis: 44%;
